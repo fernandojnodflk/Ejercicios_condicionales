@@ -4,7 +4,7 @@ el dí­a correspondiente.
 Si introducimos otro número nos da un error.
 """
 print("HOLA :)")
-dia = int(input("Introduce un número del 1 al 7: "))
+dia = int(input("Ingresa un número del 1 al 7: "))
 
 if dia == 1:
     print("Lunes")

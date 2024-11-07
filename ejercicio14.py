@@ -1,10 +1,10 @@
 """
-Escribe un programa que pida un número entero entre uno y doce e imprima el 
+Escribe un programa que pida un número entero entre uno y doce e imprima el
 número de días que tiene el mes correspondiente.
 Si introducimos otro número nos da un error.
 """
 print("HOLA :)")
-mes = int(input("Introduce un número de mes (1-12): "))
+mes = int(input("Ingresa un número del mes (1-12): "))
 
 if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
     print("Este mes tiene 31 días.")
